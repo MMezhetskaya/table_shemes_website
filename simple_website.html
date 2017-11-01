@@ -1,0 +1,63 @@
+<html>
+<head>
+    <title>Simple site</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Marya Mezhetskaya">
+    <style>
+        body {
+            font-size: 14px;
+            margin: 0 auto;
+            max-width: 980px;
+            font-weight:bold;
+            text-align: center;
+        }
+        .header {
+            background-color:#f1f9ba;
+            height:50px;
+        }
+        .separator{
+            background-color:Yellow;
+            height:20px;
+        }
+        .navigation{
+            background-color:Pink;
+            height:20px;
+        }
+        .main_block{
+            position: relative;
+            height:300px;
+        }
+        .left_panel{
+            background-color:#32ffee;
+            position: absolute;
+            left:0;
+            height:100%;
+            width:30%;
+
+        }
+        .content{
+            background-color: lightgray;
+            position:absolute;
+            height:100%;
+            width:70%;
+            right:0;
+        }
+        .footer{
+            background-color:#2cb2ff;
+            height:50px;
+        }
+    </style>
+</head>
+</head>
+<body>
+    <div class="header"> header (шапка сайта)</div>
+    <div class="separator"> </div>
+    <div class="navigation"> Блок навигации</div>
+    <div class="main_block">
+        <div class="left_panel"> Левая панель</div>
+        <div class="content"> Основной контент страницы</div>
+    </div>
+    <div class="separator"> </div>
+    <div class="footer"> footer (низ сайта) </div>
+</body>
+</html>
